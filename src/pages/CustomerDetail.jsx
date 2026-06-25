@@ -36,7 +36,7 @@ function CustomerDetail() {
         <p><strong>Email:</strong> {customer.email}</p>
         <p><strong>Phone:</strong> {customer.phone}</p>
 
-        <h3 style={{ marginTop: '24px', marginBottom: '12px' }}>📝 Notes</h3>
+        <h3 style={{ marginTop: '24px', marginBottom: '12px' }}>Notes</h3>
         {customer.notes.map((note, i) => (
           <div key={i} style={{
             padding: '10px 14px', background: '#f9f9f9',
